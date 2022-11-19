@@ -6,10 +6,10 @@ import { ProjectList } from "../helpers/ProjectList";
 function Projects() {
   return (
     <div className="projects">
-      <h1>My Personal Projects</h1>
+      <h1>Projects Showcase</h1>
       <div className="projectList">
         {ProjectList.map((project) => {
-          return <ProjectItem name={project.name} image={project.image} />;
+          return <ProjectItem name={project.name} image={project.image} description={project.description} projectLocation={project.projectLocation} />;
         })}
       </div>
     </div>

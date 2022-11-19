@@ -14,10 +14,10 @@
   }
   
   .projectList {
-    width: 70vw;
+    width: 62vw;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     place-items: center;
   }
   
@@ -25,8 +25,8 @@
   
   .projectItem {
     border-radius: 15px;
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 650px;
     margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -34,19 +34,32 @@
   .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
-    cursor: pointer;
   }
   
   .projectItem .bgImage {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
+  .projectItem .projectBtn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+  .projectItem .projectDescription {
+    font-size: 15px;
+    font-weight: normal;
+  }
+
   .projectItem h1 {
     font-size: 25px;
   }
@@ -65,10 +78,12 @@
   
   @media only screen and (max-width: 800px) {
     .projectList {
+      height: auto;
       width: 100%;
+      place-items: center;
     }
     .projectItem {
-      width: 400px;
-      height: 300px;
+      width: 350px;
+      height: 500px;
     }
   }
