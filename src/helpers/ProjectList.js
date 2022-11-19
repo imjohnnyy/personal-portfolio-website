@@ -1,5 +1,6 @@
 import CabsPro from "../assets/CabsPro.png";
-import WeatherApp from "../assets/WeatherApp.png"
+import WeatherApp from "../assets/WeatherApp.png";
+import StatusPostingSystem from "../assets/StatusPostingSystem.png";
 
 export const ProjectList = [
   {
@@ -9,5 +10,9 @@ export const ProjectList = [
   {
     name: "Weather Forecast App",
     image: WeatherApp
+  },
+  {
+    name: "Status Posting System",
+    image: StatusPostingSystem
   }
 ];
