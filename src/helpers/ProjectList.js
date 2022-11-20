@@ -2,6 +2,7 @@ import CabsPro from "../assets/CabsPro.png";
 import WeatherApp from "../assets/WeatherApp.png";
 import StatusPostingSystem from "../assets/StatusPostingSystem.png";
 import SPEED from "../assets/SPEED.png";
+import PortfolioApp from "../assets/PortfolioApp.png";
 
 export const ProjectList = [
   {
@@ -32,5 +33,13 @@ export const ProjectList = [
     projectLocation: "https://github.com/imjohnnyy/status-posting-system",
     skills: [" PHP, ", "MySQL, ", "Bootstrap, ", "HTML, ", "CSS "]
   },
+  {
+    name: "This Portfolio Website",
+    image: PortfolioApp ,
+    description: "This is a web app that allows me to provide information about myself such as: my career goal, my technical skills, some ways to contact me, along with showcasing some of the projects that I have completed. ", 
+    projectLocation: "https://github.com/imjohnnyy/personal-portfolio-website",
+    skills: [" React, ", "HTML, ", "CSS, ", "Material UI"]
+  },
+
 
 ];
