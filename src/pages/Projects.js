@@ -9,7 +9,15 @@ function Projects() {
       <h1>Projects Showcase</h1>
       <div className="projectList">
         {ProjectList.map((project) => {
-          return <ProjectItem name={project.name} image={project.image} description={project.description} projectLocation={project.projectLocation} />;
+          return (
+            <ProjectItem
+              name={project.name}
+              image={project.image}
+              description={project.description}
+              projectLocation={project.projectLocation}
+              skills={project.skills}
+            />
+          );
         })}
       </div>
     </div>

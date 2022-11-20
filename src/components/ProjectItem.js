@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectItem({ image, name, description, projectLocation }) {
+function ProjectItem({ image, name, description, projectLocation, skills}) {
   return (
     <div className="projectItem">
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
@@ -11,6 +11,9 @@ function ProjectItem({ image, name, description, projectLocation }) {
       >
         Source Code
       </button>
+      <div>
+        <b>Skills used:</b> {skills} 
+      </div>
       <h2 className="projectDescription">{description}</h2>
     </div>
   );
