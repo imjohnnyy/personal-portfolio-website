@@ -6,7 +6,7 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <div>
         <GitHubIcon
           onClick={() => window.open('https://github.com/imjohnnyy', '_blank')}

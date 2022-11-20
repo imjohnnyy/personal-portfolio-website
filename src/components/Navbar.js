@@ -28,6 +28,7 @@ function Navbar() {
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
+        <a href="#footer">Contact</a>
       </div>
     </div>
   );
