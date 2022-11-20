@@ -22,7 +22,7 @@ function Home() {
         </div>
         <div className="prompt">
           <p>
-            An aspiring Software Developer with a passion for learning and
+            I'm an aspiring Software Developer with a passion for learning and
             building software!
           </p>
         </div>
@@ -32,7 +32,7 @@ function Home() {
           <h1>Skills</h1>
           <li className="item">
             <h2>Front-end</h2>
-            <span>React, React Native, HTML, CSS, BootStrap, Material UI</span>
+            <span>React, React Native, HTML, CSS, Bootstrap, Material UI</span>
           </li>
           <li className="item">
             <h2>Back-end</h2>
