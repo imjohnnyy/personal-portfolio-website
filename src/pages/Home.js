@@ -22,7 +22,7 @@ function Home() {
         </div>
         <div className="prompt">
           <p>
-            I'm an aspiring Software Developer with a passion for learning and
+            I'm an aspiring Software Engineer with a passion for learning and
             building software!
           </p>
         </div>
